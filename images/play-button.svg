@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111.8 111.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #52D0D1;
+      }
+    </style>
+  </defs>
+  <title>Asset 1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <circle class="cls-1" cx="55.9" cy="55.9" r="55.9"/>
+        <polygon class="cls-2" points="38.7 55.9 38.7 26.5 64.1 41.2 89.6 55.9 64.1 70.6 38.7 85.3 38.7 55.9"/>
+      </g>
+    </g>
+  </g>
+</svg>

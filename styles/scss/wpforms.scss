@@ -1,0 +1,162 @@
+div.wpforms-container-full {
+    .wpforms-form {
+        .wpforms-field-container {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-left: -15px;
+            margin-right: -15px;
+
+            .wpforms-field-label {
+                font-weight: 500;
+                font-size: 14px;
+            }
+
+            .wpforms-field {
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-top: 35px; 
+
+                select,
+                input[type=radio],
+                input[type=checkbox] {
+                    opacity: 1 !important;
+                    pointer-events: fill !important;
+                }
+
+                input[type=checkbox] {
+                    width: 20px;
+                    height: 20px;
+                }
+
+                input,
+                select {
+                    background: transparent !important;
+                    border: none !important;
+                    border-bottom: 1px solid #ccc !important;
+                }
+
+                
+                .wpforms-field-label {
+                    position: absolute;
+                    top: 25px;
+                    left: 25px;
+                    -webkit-transition: .2s ease-out;
+                    -o-transition: .2s ease-out;
+                    transition: .2s ease-out;
+                    cursor: text;
+                }
+
+                label {
+                    color: white;
+                }
+
+                .wpforms-error {
+                    position: static !important;
+                    -webkit-transform: translateY(0%) !important;
+                    -ms-transform: translateY(0%) !important;
+                    transform: translateY(0%) !important;
+                }
+
+                textarea {
+                    background: transparent !important;
+                    margin-top: 10px !important;
+                }
+
+                select {
+                    display: block !important;
+                }
+
+                .wpforms-field-row {
+                    .wpforms-one-half {
+                        width: 50%;
+                        padding-left: 15px;
+                        margin-left: 0px;
+                    }
+
+                    .wpforms-first {
+                        padding-left: 0px;
+                        padding-right: 15px;
+                    }
+                }
+            }
+
+            .wpforms-field-checkbox,
+            .wpforms-field-radio,
+            .wpforms-field-select {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                .wpforms-field-label {
+                    position: static;
+                    margin-right: 20px;
+                }
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    li {
+                        display: flex;
+                        align-items: center;
+                        margin-right: 30px !important;
+                        margin-bottom: 5px !important;
+                        margin-bottom: 5px !important;
+                        label {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            .md-form {
+                position: relative !important;
+                margin-top: 0.9rem !important;
+            }
+
+            .wpforms-field-number-slider {
+                .thumb {
+                    display: none;
+                }
+            }
+        }
+
+        .wpforms-submit-container {
+            text-align: center;
+            .wpforms-submit {
+                @extend .custom-btn;
+                border: none;
+                background-color: $green;
+                text-transform: uppercase;
+                padding: 12px 40px;
+            }
+        }
+    }
+}
+
+.contact-form {
+    @include background-overlay("../../images/contact-bg.jpg", center center, 75, 105, 94, 0.88);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+// Mobile
+@media (max-width: $screen-sm) {
+    div.wpforms-container-full .wpforms-form .wpforms-field {
+        width: 100%;
+    }
+    .contact-form {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {}

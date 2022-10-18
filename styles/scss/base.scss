@@ -1,0 +1,345 @@
+// @include transition(all 0.5s ease);
+/* Typography */
+h1,
+.h1 {}
+
+h2,
+.h2 {}
+
+h3,
+.h3 {}
+
+h4,
+.h4 {}
+
+h5,
+.h5 {}
+
+h6,
+.h6 {}
+
+p {}
+
+p.small {
+    font-variant: small-caps;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.font-weight-medium {
+    font-weight: 600;
+}
+
+.img-fit {
+    @include img-fit
+}
+
+.custom-btn {
+    color: white;
+    background-color: $d-green;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: none;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+// Text
+.text-d-green {
+    color: $d-green;
+}
+
+.text-green {
+    color: $green;
+}
+
+// Background
+.bg-green {
+    background-color: rgba($color: $green, $alpha: 0.4);
+}
+
+.welcome {
+    .content {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-image: url("../../images/welcome-bg.png");
+        background-size: 50%;
+        background-position: left top 20px;
+        background-repeat: no-repeat;
+        font-size: 32px;
+        color: $d-green;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+}
+
+// 2 Columns Image|Text
+.gka-bundle-2cols-image-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .content {
+        padding: 0px 60px;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: $d-green;
+            font-weight: 600;
+        }
+
+        .subhead {
+            font-size: 14px;
+            font-weight: 600;
+            color: $d-green;
+            position: relative;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+
+        .subhead::after {
+            content: "";
+            position: absolute;
+            background-image: url("../../images/branch.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left 15px center;
+            top: 0px;
+            height: 30px;
+            width: 150px;
+        }
+    }
+
+    .left-col {
+        .content {
+            padding-left: 20%;
+        }
+    }
+
+    .right-col {
+        .content {
+            padding-right: 20%;
+        }
+    }
+}
+
+// Mobile
+@media (max-width: $screen-sm) {
+
+    /* Typography */
+    h1,
+    .h1 {
+        font-size: 28px;
+    }
+
+    h2,
+    .h2 {
+        font-size: 24px;
+    }
+
+    h3,
+    .h3 {
+        font-size: 22px;
+    }
+
+    h4,
+    .h4 {
+        font-size: 20px;
+    }
+
+    h5,
+    .h5 {
+        font-size: 18px;
+    }
+
+    h6,
+    .h6 {
+        font-size: 16px;
+    }
+
+    .welcome {
+        .content {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-size: 24px;
+        }
+    }
+
+    // 2 Columns Image|Text
+    .gka-bundle-2cols-image-text {
+        padding-top: 0px;
+        padding-bottom: 15px;
+
+        .content {
+            padding: 30px 15px 15px 15px;
+
+            .subhead {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+
+            .subhead::after {
+                height: 20px;
+                width: 100px;
+            }
+        }
+
+        .left-col {
+            .content {
+                padding-left: 15px;
+            }
+        }
+
+        .right-col {
+            .content {
+                padding-right: 15px;
+            }
+        }
+    }
+}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {
+
+    /* Typography */
+    h1,
+    .h1 {
+        font-size: 32px;
+    }
+
+    h2,
+    .h2 {
+        font-size: 28px;
+    }
+
+    h3,
+    .h3 {
+        font-size: 24px;
+    }
+
+    h4,
+    .h4 {
+        font-size: 22px;
+    }
+
+    h5,
+    .h5 {}
+
+    h6,
+    .h6 {}
+
+    .welcome {
+        .content {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-size: 28px;
+        }
+    }
+
+    // 2 Columns Image|Text
+    .gka-bundle-2cols-image-text {
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        .content {
+            padding: 0px 25px;
+
+            .subhead {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+
+            .subhead::after {
+                height: 30px;
+                width: 100px;
+            }
+        }
+
+        .left-col {
+            .content {
+                padding-left: 15px;
+            }
+        }
+
+        .right-col {
+            .content {
+                padding-right: 15px;
+            }
+        }
+    }
+}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+
+    /* Typography */
+    h1,
+    .h1 {}
+
+    h2,
+    .h2 {
+        font-size: 28px;
+    }
+
+    h3,
+    .h3 {
+        font-size: 24px;
+    }
+
+    h4,
+    .h4 {
+        font-size: 22px;
+    }
+
+    h5,
+    .h5 {}
+
+    h6,
+    .h6 {}
+
+    .welcome {
+        .content {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            font-size: 30px;
+        }
+    }
+
+    // 2 Columns Image|Text
+    .gka-bundle-2cols-image-text {
+
+        .content {
+            padding: 0px 35px;
+
+            .subhead {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+
+            .subhead::after {
+                height: 30px;
+                width: 120px;
+            }
+        }
+
+        .left-col {
+            .content {
+                padding-left: 50px;
+            }
+        }
+
+        .right-col {
+            .content {
+                padding-right: 50px;
+            }
+        }
+    }
+}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {}

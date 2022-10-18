@@ -1,0 +1,11 @@
+// Mobile
+@media (max-width: $screen-sm) {}
+
+// Tablet
+@media (min-width: $screen-sm) and (max-width: $screen-md) {}
+
+// Small Screen
+@media (min-width: $screen-md) and (max-width: $screen-lg) {}
+
+// Small Screen
+@media (min-width: $screen-lg) and (max-width: 1460px) {}
