@@ -117,8 +117,8 @@ get_header();
 					<div class="col-md-5">
 						<div class="builder-list z-depth-1">
 							<div class="images">
-								<a target="_blank" href="https://www.danryanbuilders.com/communities/maryland/washington-dcbaltimore/the-village-at-cabin-branch">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/comingsoon.jpg"
+								<a target="_blank" href="https://www.drbhomes.com/drbhomes/find-your-home/communities/maryland/capital-region/the-village-at-cabin-branch/overview">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/builder/DRB.jpg"
 										alt="New Homes" class="img-fit img-fluid">
 								</a>
 							</div>
