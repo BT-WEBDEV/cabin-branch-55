@@ -135,7 +135,7 @@ get_header();
 									</div>
 									<div>
 										<a target="_blank" class="btn custom-btn red-btn"
-											href="https://www.drbhomes.com/drbhomes">Learn More</a>
+											href="https://www.drbhomes.com/drbhomes/find-your-home/communities/maryland/capital-region/the-village-at-cabin-branch/overview">Learn More</a>
 									</div>
 								</div>
 							</div>
