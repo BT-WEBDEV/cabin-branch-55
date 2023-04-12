@@ -60,25 +60,25 @@ get_header();
 					<div class="col-md-5">
 						<div class="builder-list z-depth-1">
 							<div class="images">
-								<a target="_blank" href="https://www.beazer.com/gatherings">
-									<img src="<?php echo get_template_directory_uri(); ?>/images/comingsoon.jpg"
+								<a target="_blank" href="https://www.beazer.com/maryland--dc-md/gatherings-at-cabin-branch">
+									<img src="<?php echo get_template_directory_uri(); ?>/images/BeazerRendering.jpg"
 										alt="New Homes" class="img-fit img-fluid">
 								</a>
 							</div>
 							<div class="content">
 								<div>
-									<a target="_blank" href="https://www.beazer.com/gatherings">
+									<a target="_blank" href="https://www.beazer.com/maryland--dc-md/gatherings-at-cabin-branch">
 										<img src="<?php echo get_template_directory_uri(); ?>/images/beazer.jpg"
 											alt="Beazer Homes" style="height: 45px">
 									</a>
 								</div>
 								<div class="text-right">
 									<div>
-										<a href="240-668-3054" class="text-d-green">240.668.3054</a>
+										<a href="tel:240-668-3054" class="text-d-green">240.668.3054</a>
 									</div>
 									<div>
 										<a target="_blank" class="btn custom-btn red-btn"
-											href="https://www.beazer.com/gatherings">Learn More</a>
+											href="https://www.beazer.com/maryland--dc-md/gatherings-at-cabin-branch">Learn More</a>
 									</div>
 								</div>
 							</div>
@@ -102,7 +102,7 @@ get_header();
 								</div>
 								<div class="text-right">
 									<div>
-										<a href="301-910-5770" class="text-d-green">301.910.5770</a>
+										<a href="tel:301-910-5770" class="text-d-green">301.910.5770</a>
 									</div>
 									<div>
 										<a target="_blank" class="btn custom-btn red-btn"
